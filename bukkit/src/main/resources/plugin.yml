@@ -8,3 +8,15 @@ api-version: 1.13
 commands:
   bloomab:
     aliases: [ bab, blab ]
+
+permissions:
+  bab.admin.actionbar.onjoin:
+    default: false
+  bab.admin.actionbar:
+    default: op
+  bab.admin.manage:
+    default: op
+  bab.admin.reload:
+    default: op
+  bab.admin:
+    default: op
